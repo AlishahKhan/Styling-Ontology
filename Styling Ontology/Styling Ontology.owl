@@ -1,0 +1,2331 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alish/ontologies/2022/7/Styling1-ontology-20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alish/ontologies/2022/7/Styling1-ontology-20">
+    <Prefix name="" IRI="http://www.semanticweb.org/alish/ontologies/2022/7/Styling1-ontology-20"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accessories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessories_Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bag_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belt_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Bags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Baseball_Cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Beanie_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Belts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Boots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Buckle_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Casual_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Cufflinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Flat_Cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Formal_Shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Hats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Jackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Joggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Kurtas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Leather_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Loafers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Metallic_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Newsboy_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Oxfords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Pants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Shairwani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Shalwar_Qameez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Slippers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Sneakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Softies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Sports_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Sports_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Tshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Wallet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Waste_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boys_Watches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clothes_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear_Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear_Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear_Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual_Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal_Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal_Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal_Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GirlsTurban_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Bags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Beanie_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Belts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Beret_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Buckle_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Casual_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Choker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Clutch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Earrings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Fedora_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Formal_Shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Frocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Hats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Head_Accessories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Hobo_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Jackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Jewelry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Joggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Kaftan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Kitten_Heels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Kurtas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Leather_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Lehngas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Metallic_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Necklace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Pants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Pumps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Ring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sarees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Shalwar_Qameez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Skirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sling_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Slippers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sneakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Softies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sports_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Stilettos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sun_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Tops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Tshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Watches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girls_Wedges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glasses_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hat_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jewelry_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Bags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Baseball_Cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Beanie_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Belts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Boater_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Boots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Bowler_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Bucket_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Buckle_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Casual_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Cufflinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Dad_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Fedora_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Flat_Cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Formal_Shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Hats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Jackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Joggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Kurtas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Leather_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Loafers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Luxury_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Metallic_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Newsboy_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Office_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Oxfords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Panaman_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Pants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Pork_Pie_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Shairwani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Shalwar_Qameez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Slippers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Snapback_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Sneakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Softies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Sports_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Sports_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Top_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Trapper_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Trilby_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Tshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Wallet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Waste_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Men_Watches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Styling_Ontology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Watch_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear_Boys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear_Girls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear_Kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear_Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Wear_Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wome_Jackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Ankel_Booties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Ankel_Strap_Heels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Bags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Bakerboy_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Basecall_Cap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Beanie_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Belts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Beret_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Boater_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Bucket_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Buckle_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Casual_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Choker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Clutch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Coats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Earring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Fedora_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Formal_Shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Frocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Hats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Head_Accessories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Hobo_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Jewelry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Joggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Kaftan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Kitten_Heels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Kurtas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Leather_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Lehngas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Luxury_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Metallic_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Minaudiere_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Necklace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Panama_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Pants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Pumps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Saees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Satchel_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Shalwar_Qameez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Shoulder_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Skirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Sling_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Slippers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Sneakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Softies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Sports_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Stilettos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Sun_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Tops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Tribly_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Tshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Turban_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Visor_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Wallet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Watches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Wedges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Wide_Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Women_Wristlet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Bag"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Belt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Clothes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Foot_Wear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Hats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Jewelry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Design_Watches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bag_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Belt_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Glasses_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hat_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Jewelry_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Person_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Watch_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boys_Sports_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boys_Wallet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girls_Clutch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girls_Hobo_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Men_Office_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Men_Sports_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Clutch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Hobo_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Minaudiere_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Satchel_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Shoulder_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Sling_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Wallet_Bag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Wristlet_Bag"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accessories"/>
+        <Class IRI="#Styling_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Boys"/>
+        <Class IRI="#Accessories_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Designer"/>
+        <Class IRI="#Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Girls"/>
+        <Class IRI="#Accessories_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Kids"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Men"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessories_Women"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bag_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belt_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys"/>
+        <Class IRI="#Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Bags"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Baseball_Cap"/>
+        <Class IRI="#Boys_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Beanie_Hat"/>
+        <Class IRI="#Boys_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Belts"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Boots"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Buckle_Belt"/>
+        <Class IRI="#Boys_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Casual_Watch"/>
+        <Class IRI="#Boys_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Coats"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Cufflinks"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Flat_Cap"/>
+        <Class IRI="#Boys_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Formal_Shirts"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Glasses"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Hats"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Jackets"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Jeans"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Joggers"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Kurtas"/>
+        <Class IRI="#Eastern_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Leather_Belt"/>
+        <Class IRI="#Boys_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Loafers"/>
+        <Class IRI="#Foot_Wear_Formal_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Metallic_Belt"/>
+        <Class IRI="#Boys_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Newsboy_Hat"/>
+        <Class IRI="#Boys_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Oxfords"/>
+        <Class IRI="#Foot_Wear_Formal_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Pants"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Shairwani"/>
+        <Class IRI="#Eastern_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Shalwar_Qameez"/>
+        <Class IRI="#Eastern_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Slippers"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Sneakers"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Softies"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Sports_Bag"/>
+        <Class IRI="#Boys_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Sports_Watch"/>
+        <Class IRI="#Boys_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Sweatshirts"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Tshirts"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Wallet_Bag"/>
+        <Class IRI="#Boys_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Waste_Coats"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boys_Watches"/>
+        <Class IRI="#Accessories_Boys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothes"/>
+        <Class IRI="#Styling_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothes_Designer"/>
+        <Class IRI="#Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Designer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear"/>
+        <Class IRI="#Clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear_Boys"/>
+        <Class IRI="#Eastern_Wear_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear_Girls"/>
+        <Class IRI="#Eastern_Wear_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear_Kids"/>
+        <Class IRI="#Eastern_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear_Men"/>
+        <Class IRI="#Eastern_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eastern_Wear_Women"/>
+        <Class IRI="#Eastern_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear"/>
+        <Class IRI="#Styling_Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual"/>
+        <Class IRI="#Foot_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+        <Class IRI="#Foot_Wear_Casual_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+        <Class IRI="#Foot_Wear_Casual_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual_Kids"/>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Designer"/>
+        <Class IRI="#Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal"/>
+        <Class IRI="#Foot_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal_Boys"/>
+        <Class IRI="#Foot_Wear_Formal_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+        <Class IRI="#Foot_Wear_Formal_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal_Kids"/>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal_Men"/>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls"/>
+        <Class IRI="#Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GirlsTurban_Hat"/>
+        <Class IRI="#Girls_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Bags"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Beanie_Hat"/>
+        <Class IRI="#Girls_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Belts"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Beret_Hat"/>
+        <Class IRI="#Girls_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Bracelet"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Buckle_Belt"/>
+        <Class IRI="#Girls_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Casual_Watch"/>
+        <Class IRI="#Girls_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Choker"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Clutch"/>
+        <Class IRI="#Girls_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Coats"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Earrings"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Fedora_Hat"/>
+        <Class IRI="#Girls_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Formal_Shirts"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Frocks"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Glasses"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Hats"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Head_Accessories"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Hobo_Bag"/>
+        <Class IRI="#Girls_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Jackets"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Jeans"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Jewelry"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Joggers"/>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Kaftan"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Kitten_Heels"/>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Kurtas"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Leather_Belt"/>
+        <Class IRI="#Girls_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Lehngas"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Metallic_Belt"/>
+        <Class IRI="#Girls_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Necklace"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Pants"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Pumps"/>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Ring"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sarees"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Shalwar_Qameez"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Skirts"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sling_Bag"/>
+        <Class IRI="#Girls_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Slippers"/>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sneakers"/>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Softies"/>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sports_Watch"/>
+        <Class IRI="#Girls_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Stilettos"/>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sun_Hat"/>
+        <Class IRI="#Girls_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Sweatshirts"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Tops"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Tshirts"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Watches"/>
+        <Class IRI="#Accessories_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girls_Wedges"/>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glasses_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hat_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jewelry_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kids"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Bags"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Baseball_Cap"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Beanie_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Belts"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Boater_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Boots"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Bowler_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Bucket_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Buckle_Belt"/>
+        <Class IRI="#Men_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Casual_Watch"/>
+        <Class IRI="#Men_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Coats"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Cufflinks"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Dad_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Fedora_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Flat_Cap"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Formal_Shirts"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Glasses"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Hats"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Jackets"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Jeans"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Joggers"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Kurtas"/>
+        <Class IRI="#Eastern_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Leather_Belt"/>
+        <Class IRI="#Men_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Loafers"/>
+        <Class IRI="#Foot_Wear_Formal_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Luxury_Watch"/>
+        <Class IRI="#Men_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Metallic_Belt"/>
+        <Class IRI="#Men_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Newsboy_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Office_Bag"/>
+        <Class IRI="#Men_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Oxfords"/>
+        <Class IRI="#Foot_Wear_Formal_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Panaman_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Pants"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Pork_Pie_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Shairwani"/>
+        <Class IRI="#Eastern_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Shalwar_Qameez"/>
+        <Class IRI="#Eastern_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Slippers"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Snapback_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Sneakers"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Softies"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Sports_Bag"/>
+        <Class IRI="#Men_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Sports_Watch"/>
+        <Class IRI="#Men_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Sweatshirts"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Top_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Trapper_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Trilby_Hat"/>
+        <Class IRI="#Men_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Tshirts"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Wallet_Bag"/>
+        <Class IRI="#Men_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Waste_Coats"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Men_Watches"/>
+        <Class IRI="#Accessories_Men"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watch_Designer"/>
+        <Class IRI="#Accessories_Designer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear"/>
+        <Class IRI="#Clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear_Boys"/>
+        <Class IRI="#Western_Wear_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear_Girls"/>
+        <Class IRI="#Western_Wear_Kids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear_Kids"/>
+        <Class IRI="#Western_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear_Men"/>
+        <Class IRI="#Western_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Wear_Women"/>
+        <Class IRI="#Western_Wear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wome_Jackets"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Ankel_Booties"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Ankel_Strap_Heels"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Bags"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Bakerboy_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Basecall_Cap"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Beanie_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Belts"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Beret_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Boater_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Bracelet"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Bucket_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Buckle_Belt"/>
+        <Class IRI="#Women_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Casual_Watch"/>
+        <Class IRI="#Women_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Choker"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Clutch"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Coats"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Earring"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Fedora_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Formal_Shirts"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Frocks"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Glasses"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Hats"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Head_Accessories"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Hobo_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Jeans"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Jewelry"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Joggers"/>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Kaftan"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Kitten_Heels"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Kurtas"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Leather_Belt"/>
+        <Class IRI="#Women_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Lehngas"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Luxury_Watch"/>
+        <Class IRI="#Women_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Metallic_Belt"/>
+        <Class IRI="#Women_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Minaudiere_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Necklace"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Panama_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Pants"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Pumps"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Rings"/>
+        <Class IRI="#Women_Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Saees"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Satchel_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Shalwar_Qameez"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Shoulder_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Skirts"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Sling_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Slippers"/>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Sneakers"/>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Softies"/>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Sports_Watch"/>
+        <Class IRI="#Women_Watches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Stilettos"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Sun_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Sweatshirts"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Tops"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Tribly_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Tshirts"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Turban_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Visor_Hat"/>
+        <Class IRI="#Women_Hats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Wallet_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Watches"/>
+        <Class IRI="#Accessories_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Wedges"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Wide_Belt"/>
+        <Class IRI="#Women_Belts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Women_Wristlet_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Boys_Bags"/>
+        <NamedIndividual IRI="#Boys_Sports_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boys_Bags"/>
+        <NamedIndividual IRI="#Boys_Wallet_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Girls_Bags"/>
+        <NamedIndividual IRI="#Girls_Clutch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Girls_Bags"/>
+        <NamedIndividual IRI="#Girls_Hobo_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Men_Bags"/>
+        <NamedIndividual IRI="#Men_Office_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Men_Bags"/>
+        <NamedIndividual IRI="#Men_Sports_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Clutch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Hobo_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Minaudiere_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Satchel_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Shoulder_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Sling_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Wallet_Bag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Women_Bags"/>
+        <NamedIndividual IRI="#Women_Wristlet_Bag"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bag_Type"/>
+        <NamedIndividual IRI="#Boys_Sports_Bag"/>
+        <Literal>Boys_Sports_Bag</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Bag"/>
+        <Class IRI="#Bag_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Belt"/>
+        <Class IRI="#Belt_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Clothes"/>
+        <Class IRI="#Clothes_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Foot_Wear"/>
+        <Class IRI="#Foot_Wear_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Glasses"/>
+        <Class IRI="#Glasses_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Hats"/>
+        <Class IRI="#Hat_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Jewelry"/>
+        <Class IRI="#Jewelry_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Design_Watches"/>
+        <Class IRI="#Watch_Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+        <Class IRI="#Boys"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+        <Class IRI="#Girls"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+        <Class IRI="#Men"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+        <Class IRI="#Women"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+        <Class IRI="#Boys"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+        <Class IRI="#Girls"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+        <Class IRI="#Men"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+        <Class IRI="#Women"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+        <Class IRI="#Boys"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+        <Class IRI="#Girls"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+        <Class IRI="#Men"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+        <Class IRI="#Women"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+        <Class IRI="#Boys"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+        <Class IRI="#Girls"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+        <Class IRI="#Men"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+        <Class IRI="#Women"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+        <Class IRI="#Boys"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+        <Class IRI="#Girls"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+        <Class IRI="#Men"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+        <Class IRI="#Women"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Bag"/>
+        <Class IRI="#Boys_Bags"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Bag"/>
+        <Class IRI="#Girls_Bags"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Bag"/>
+        <Class IRI="#Men_Bags"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Bag"/>
+        <Class IRI="#Women_Bags"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Belt"/>
+        <Class IRI="#Boys_Belts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Belt"/>
+        <Class IRI="#Girls_Belts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Belt"/>
+        <Class IRI="#Men_Belts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Belt"/>
+        <Class IRI="#Women_Belts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Clothes"/>
+        <Class IRI="#Eastern_Wear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Clothes"/>
+        <Class IRI="#Western_Wear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Foot_Wear"/>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Foot_Wear"/>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Glasses"/>
+        <Class IRI="#Boys_Glasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Glasses"/>
+        <Class IRI="#Girls_Glasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Glasses"/>
+        <Class IRI="#Men_Glasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Glasses"/>
+        <Class IRI="#Women_Glasses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Hats"/>
+        <Class IRI="#Boys_Hats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Hats"/>
+        <Class IRI="#Girls_Hats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Hats"/>
+        <Class IRI="#Men_Hats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Hats"/>
+        <Class IRI="#Women_Hats"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Jewelry"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Jewelry"/>
+        <Class IRI="#Women_Jewelry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Watches"/>
+        <Class IRI="#Boys_Watches"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Watches"/>
+        <Class IRI="#Girls_Watches"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Watches"/>
+        <Class IRI="#Men_Watches"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Design_Watches"/>
+        <Class IRI="#Women_Watches"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wear_Accessories"/>
+        <Class IRI="#Accessories"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wear_Casual_Foot_Wear"/>
+        <Class IRI="#Foot_Wear_Casual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wear_Eastern_Clothes"/>
+        <Class IRI="#Eastern_Wear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wear_Formal_Foot_Wear"/>
+        <Class IRI="#Foot_Wear_Formal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Wear_Western_Clothes"/>
+        <Class IRI="#Western_Wear"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bag_Type"/>
+        <Class IRI="#Boys_Bags"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bag_Type"/>
+        <Class IRI="#Girls_Bags"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bag_Type"/>
+        <Class IRI="#Men_Bags"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bag_Type"/>
+        <Class IRI="#Women_Bags"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Belt_Type"/>
+        <Class IRI="#Boys_Belts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Belt_Type"/>
+        <Class IRI="#Girls_Belts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Belt_Type"/>
+        <Class IRI="#Men_Belts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Belt_Type"/>
+        <Class IRI="#Women_Belts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Casual_Boys"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Casual_Girls"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Casual_Men"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Casual_Women"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+        <Class IRI="#Eastern_Wear_Boys"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+        <Class IRI="#Eastern_Wear_Girls"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+        <Class IRI="#Eastern_Wear_Men"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+        <Class IRI="#Eastern_Wear_Women"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Formal_Boys"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Formal_Girls"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Formal_Men"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+        <Class IRI="#Foot_Wear_Formal_Women"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Glasses_Type"/>
+        <Class IRI="#Boys_Glasses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Glasses_Type"/>
+        <Class IRI="#Girls_Glasses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Glasses_Type"/>
+        <Class IRI="#Men_Glasses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Glasses_Type"/>
+        <Class IRI="#Women_Glasses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hat_Type"/>
+        <Class IRI="#Boys_Hats"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hat_Type"/>
+        <Class IRI="#Girls_Hats"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hat_Type"/>
+        <Class IRI="#Men_Hats"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hat_Type"/>
+        <Class IRI="#Women_Hats"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Jewelry_Type"/>
+        <Class IRI="#Girls_Jewelry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Jewelry_Type"/>
+        <Class IRI="#Women_Jewelry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Person_Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Watch_Type"/>
+        <Class IRI="#Boys_Watches"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Watch_Type"/>
+        <Class IRI="#Girls_Watches"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Watch_Type"/>
+        <Class IRI="#Men_Watches"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Watch_Type"/>
+        <Class IRI="#Women_Watches"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+        <Class IRI="#Western_Wear_Boys"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+        <Class IRI="#Western_Wear_Girls"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+        <Class IRI="#Western_Wear_Men"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+        <Class IRI="#Western_Wear_Women"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bag_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Belt_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Casual_Foot_Wear_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Eastern_Wear_Clothes_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Formal_Foot_Wear_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Glasses_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hat_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Jewelry_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Person_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Watch_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Western_Wear_Clothes_Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
